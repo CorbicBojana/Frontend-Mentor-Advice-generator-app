@@ -1,1 +1,13 @@
-@media screen and (max-width: 1080px) {}
+@media screen and (max-width: 520px) {
+
+    .main {
+
+        .container {
+            max-width: 320px;
+
+            .divider {
+                background: url("../../dist/img/pattern-divider-mobile.svg");
+            }
+        }
+    }
+}
